@@ -1,0 +1,1482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="10" failed="1" ignored="2" total="35" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="178595" started-at="2020-06-22T18:16:31Z" finished-at="2020-06-22T18:19:30Z">
+    <groups>
+      <group name="functional">
+        <method signature="HotelBooking.booking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:org.base.test.HotelBooking@1a968a59]" name="booking" class="org.base.test.HotelBooking"/>
+        <method signature="HotelBooking.testB()[pri:1, instance:org.base.test.HotelBooking@1a968a59]" name="testB" class="org.base.test.HotelBooking"/>
+        <method signature="HotelBooking.booking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:org.base.test.HotelBooking@56ac3a89]" name="booking" class="org.base.test.HotelBooking"/>
+        <method signature="HotelBooking.testB()[pri:1, instance:org.base.test.HotelBooking@56ac3a89]" name="testB" class="org.base.test.HotelBooking"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="TestD.testE()[pri:0, instance:org.base.test.TestD@548e7350]" name="testE" class="org.base.test.TestD"/>
+        <method signature="TestD.testE()[pri:0, instance:org.base.test.TestD@490ab905]" name="testE" class="org.base.test.TestD"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="HotelBooking.testB()[pri:1, instance:org.base.test.HotelBooking@1a968a59]" name="testB" class="org.base.test.HotelBooking"/>
+        <method signature="TestD.testF()[pri:0, instance:org.base.test.TestD@548e7350]" name="testF" class="org.base.test.TestD"/>
+        <method signature="HotelBooking.testB()[pri:1, instance:org.base.test.HotelBooking@56ac3a89]" name="testB" class="org.base.test.HotelBooking"/>
+        <method signature="TestD.testF()[pri:0, instance:org.base.test.TestD@490ab905]" name="testF" class="org.base.test.TestD"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="ChromeTest" duration-ms="67318" started-at="2020-06-22T18:16:31Z" finished-at="2020-06-22T18:17:38Z">
+      <class name="org.base.test.HotelBooking">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@1a968a59]" name="launchBrowser" is-config="true" duration-ms="10303" started-at="2020-06-22T18:16:31Z" finished-at="2020-06-22T18:16:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@1a968a59]" name="launchHotelUrl" is-config="true" duration-ms="7662" started-at="2020-06-22T18:16:41Z" finished-at="2020-06-22T18:16:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="booking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:org.base.test.HotelBooking@1a968a59]" name="booking" duration-ms="12654" started-at="2020-06-22T18:16:49Z" data-provider="data" finished-at="2020-06-22T18:17:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sripriya02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[W5K24G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Hervey]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5 - Five]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[sri]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[priya]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234567894327780]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1236]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[firstorder]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@1a968a59]" name="launchHotelUrl" is-config="true" duration-ms="366" started-at="2020-06-22T18:17:02Z" finished-at="2020-06-22T18:17:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="booking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:org.base.test.HotelBooking@1a968a59]" name="booking" duration-ms="10966" started-at="2020-06-22T18:17:02Z" data-provider="data" finished-at="2020-06-22T18:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sripriya02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[W5K24G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Hervey]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5 - Five]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[mary]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[raj]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234567894327781]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1235]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[secondorder]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@1a968a59]" name="launchHotelUrl" is-config="true" duration-ms="327" started-at="2020-06-22T18:17:13Z" finished-at="2020-06-22T18:17:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="booking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:org.base.test.HotelBooking@1a968a59]" name="booking" duration-ms="11125" started-at="2020-06-22T18:17:13Z" data-provider="data" finished-at="2020-06-22T18:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sripriya02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[W5K24G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Hervey]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5 - Five]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[krish]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[jain]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234567894327782]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2020]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1239]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[thirdorder]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@1a968a59]" name="launchHotelUrl" is-config="true" duration-ms="605" started-at="2020-06-22T18:17:25Z" finished-at="2020-06-22T18:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="booking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:org.base.test.HotelBooking@1a968a59]" name="booking" duration-ms="11580" started-at="2020-06-22T18:17:25Z" data-provider="data" finished-at="2020-06-22T18:17:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sripriya02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[W5K24G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Hervey]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5 - Five]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[mina]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[roy]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234567894327783]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2019]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1230]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[fourthorder]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@1a968a59]" name="launchHotelUrl" is-config="true" duration-ms="363" started-at="2020-06-22T18:17:37Z" finished-at="2020-06-22T18:17:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="testB()[pri:1, instance:org.base.test.HotelBooking@1a968a59]" name="testB" duration-ms="3" started-at="2020-06-22T18:17:37Z" finished-at="2020-06-22T18:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@1a968a59]" name="launchHotelUrl" is-config="true" duration-ms="116" started-at="2020-06-22T18:17:37Z" finished-at="2020-06-22T18:17:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="testB()[pri:1, instance:org.base.test.HotelBooking@1a968a59]" name="testB" duration-ms="0" started-at="2020-06-22T18:17:37Z" finished-at="2020-06-22T18:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@1a968a59]" name="launchHotelUrl" is-config="true" duration-ms="138" started-at="2020-06-22T18:17:37Z" finished-at="2020-06-22T18:17:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="testB()[pri:1, instance:org.base.test.HotelBooking@1a968a59]" name="testB" duration-ms="0" started-at="2020-06-22T18:17:37Z" finished-at="2020-06-22T18:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@1a968a59]" name="launchHotelUrl" is-config="true" duration-ms="161" started-at="2020-06-22T18:17:37Z" finished-at="2020-06-22T18:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="testB()[pri:1, instance:org.base.test.HotelBooking@1a968a59]" name="testB" duration-ms="0" started-at="2020-06-22T18:17:38Z" finished-at="2020-06-22T18:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@1a968a59]" name="launchHotelUrl" is-config="true" duration-ms="113" started-at="2020-06-22T18:17:38Z" finished-at="2020-06-22T18:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.base.test.HotelBooking@1a968a59]" name="closeBrowser" is-config="true" duration-ms="760" started-at="2020-06-22T18:17:38Z" finished-at="2020-06-22T18:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="testB()[pri:1, instance:org.base.test.HotelBooking@1a968a59]" name="testB" duration-ms="0" started-at="2020-06-22T18:17:38Z" finished-at="2020-06-22T18:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+      </class> <!-- org.base.test.HotelBooking -->
+      <class name="org.base.test.TestD">
+        <test-method status="PASS" signature="testE()[pri:0, instance:org.base.test.TestD@548e7350]" name="testE" duration-ms="16" started-at="2020-06-22T18:17:37Z" finished-at="2020-06-22T18:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testE -->
+        <test-method status="PASS" signature="testF()[pri:0, instance:org.base.test.TestD@548e7350]" name="testF" duration-ms="0" started-at="2020-06-22T18:17:37Z" finished-at="2020-06-22T18:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testF -->
+      </class> <!-- org.base.test.TestD -->
+    </test> <!-- ChromeTest -->
+    <test name="ieTest" duration-ms="111190" started-at="2020-06-22T18:17:38Z" finished-at="2020-06-22T18:19:30Z">
+      <class name="org.base.test.HotelBooking">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@56ac3a89]" name="launchBrowser" is-config="true" duration-ms="8400" started-at="2020-06-22T18:17:38Z" finished-at="2020-06-22T18:17:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@56ac3a89]" name="launchHotelUrl" is-config="true" duration-ms="555" started-at="2020-06-22T18:17:47Z" finished-at="2020-06-22T18:17:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="booking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:org.base.test.HotelBooking@56ac3a89]" name="booking" duration-ms="25413" started-at="2020-06-22T18:17:47Z" data-provider="data" finished-at="2020-06-22T18:18:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sripriya02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[W5K24G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Hervey]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5 - Five]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[sri]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[priya]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234567894327780]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1236]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[firstorder]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@56ac3a89]" name="launchHotelUrl" is-config="true" duration-ms="302" started-at="2020-06-22T18:18:13Z" finished-at="2020-06-22T18:18:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="booking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:org.base.test.HotelBooking@56ac3a89]" name="booking" duration-ms="24138" started-at="2020-06-22T18:18:13Z" data-provider="data" finished-at="2020-06-22T18:18:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sripriya02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[W5K24G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Hervey]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5 - Five]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[mary]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[raj]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234567894327781]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[April]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2021]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1235]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[secondorder]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@56ac3a89]" name="launchHotelUrl" is-config="true" duration-ms="376" started-at="2020-06-22T18:18:37Z" finished-at="2020-06-22T18:18:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="booking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:org.base.test.HotelBooking@56ac3a89]" name="booking" duration-ms="24366" started-at="2020-06-22T18:18:38Z" data-provider="data" finished-at="2020-06-22T18:19:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sripriya02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[W5K24G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Hervey]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5 - Five]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[krish]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[jain]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234567894327782]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2020]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1239]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[thirdorder]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@56ac3a89]" name="launchHotelUrl" is-config="true" duration-ms="380" started-at="2020-06-22T18:19:02Z" finished-at="2020-06-22T18:19:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="booking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:-1, instance:org.base.test.HotelBooking@56ac3a89]" name="booking" duration-ms="24677" started-at="2020-06-22T18:19:02Z" data-provider="data" finished-at="2020-06-22T18:19:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sripriya02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[W5K24G]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sydney]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hotel Hervey]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Standard]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5 - Five]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[mina]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[roy]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[chennai]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234567894327783]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[VISA]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[June]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[2019]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1230]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[fourthorder]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@56ac3a89]" name="launchHotelUrl" is-config="true" duration-ms="504" started-at="2020-06-22T18:19:27Z" finished-at="2020-06-22T18:19:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@56ac3a89]" name="launchHotelUrl" is-config="true" duration-ms="379" started-at="2020-06-22T18:19:28Z" finished-at="2020-06-22T18:19:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="testB()[pri:1, instance:org.base.test.HotelBooking@56ac3a89]" name="testB" duration-ms="0" started-at="2020-06-22T18:19:28Z" finished-at="2020-06-22T18:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="testB()[pri:1, instance:org.base.test.HotelBooking@56ac3a89]" name="testB" duration-ms="1" started-at="2020-06-22T18:19:28Z" finished-at="2020-06-22T18:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@56ac3a89]" name="launchHotelUrl" is-config="true" duration-ms="356" started-at="2020-06-22T18:19:28Z" finished-at="2020-06-22T18:19:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="testB()[pri:1, instance:org.base.test.HotelBooking@56ac3a89]" name="testB" duration-ms="0" started-at="2020-06-22T18:19:28Z" finished-at="2020-06-22T18:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@56ac3a89]" name="launchHotelUrl" is-config="true" duration-ms="285" started-at="2020-06-22T18:19:28Z" finished-at="2020-06-22T18:19:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="launchHotelUrl(java.lang.String)[pri:0, instance:org.base.test.HotelBooking@56ac3a89]" name="launchHotelUrl" is-config="true" duration-ms="346" started-at="2020-06-22T18:19:29Z" finished-at="2020-06-22T18:19:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHotelUrl -->
+        <test-method status="PASS" signature="testB()[pri:1, instance:org.base.test.HotelBooking@56ac3a89]" name="testB" duration-ms="0" started-at="2020-06-22T18:19:29Z" finished-at="2020-06-22T18:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="testB()[pri:1, instance:org.base.test.HotelBooking@56ac3a89]" name="testB" duration-ms="0" started-at="2020-06-22T18:19:29Z" finished-at="2020-06-22T18:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:org.base.test.HotelBooking@56ac3a89]" name="closeBrowser" is-config="true" duration-ms="691" started-at="2020-06-22T18:19:29Z" finished-at="2020-06-22T18:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.base.test.HotelBooking -->
+      <class name="org.base.test.TestD">
+        <test-method status="PASS" signature="testE()[pri:0, instance:org.base.test.TestD@490ab905]" name="testE" duration-ms="0" started-at="2020-06-22T18:19:27Z" finished-at="2020-06-22T18:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testE -->
+        <test-method status="PASS" signature="testF()[pri:0, instance:org.base.test.TestD@490ab905]" name="testF" duration-ms="0" started-at="2020-06-22T18:19:27Z" finished-at="2020-06-22T18:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testF -->
+      </class> <!-- org.base.test.TestD -->
+    </test> <!-- ieTest -->
+    <test name="failcheck" duration-ms="47" started-at="2020-06-22T18:19:30Z" finished-at="2020-06-22T18:19:30Z">
+      <class name="org.base.test.FailCheck">
+        <test-method status="SKIP" signature="testA()[pri:0, instance:org.base.test.FailCheck@13805618]" name="testA" duration-ms="0" started-at="2020-06-22T18:19:30Z" finished-at="2020-06-22T18:19:30Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at org.base.test.FailCheck.testA(FailCheck.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="SKIP" signature="testA()[pri:0, instance:org.base.test.FailCheck@13805618]" name="testA" duration-ms="10" started-at="2020-06-22T18:19:30Z" finished-at="2020-06-22T18:19:30Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at org.base.test.FailCheck.testA(FailCheck.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="SKIP" signature="testA()[pri:0, instance:org.base.test.FailCheck@13805618]" name="testA" duration-ms="0" started-at="2020-06-22T18:19:30Z" finished-at="2020-06-22T18:19:30Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at org.base.test.FailCheck.testA(FailCheck.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="SKIP" signature="testA()[pri:0, instance:org.base.test.FailCheck@13805618]" name="testA" duration-ms="0" started-at="2020-06-22T18:19:30Z" finished-at="2020-06-22T18:19:30Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at org.base.test.FailCheck.testA(FailCheck.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="SKIP" signature="testA()[pri:0, instance:org.base.test.FailCheck@13805618]" name="testA" duration-ms="0" started-at="2020-06-22T18:19:30Z" finished-at="2020-06-22T18:19:30Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at org.base.test.FailCheck.testA(FailCheck.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="SKIP" signature="testA()[pri:0, instance:org.base.test.FailCheck@13805618]" name="testA" duration-ms="0" started-at="2020-06-22T18:19:30Z" finished-at="2020-06-22T18:19:30Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at org.base.test.FailCheck.testA(FailCheck.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="SKIP" signature="testA()[pri:0, instance:org.base.test.FailCheck@13805618]" name="testA" duration-ms="0" started-at="2020-06-22T18:19:30Z" finished-at="2020-06-22T18:19:30Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at org.base.test.FailCheck.testA(FailCheck.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="SKIP" signature="testA()[pri:0, instance:org.base.test.FailCheck@13805618]" name="testA" duration-ms="0" started-at="2020-06-22T18:19:30Z" finished-at="2020-06-22T18:19:30Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at org.base.test.FailCheck.testA(FailCheck.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="SKIP" signature="testA()[pri:0, instance:org.base.test.FailCheck@13805618]" name="testA" duration-ms="2" started-at="2020-06-22T18:19:30Z" finished-at="2020-06-22T18:19:30Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at org.base.test.FailCheck.testA(FailCheck.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="FAIL" signature="testA()[pri:0, instance:org.base.test.FailCheck@13805618]" name="testA" duration-ms="0" started-at="2020-06-22T18:19:30Z" finished-at="2020-06-22T18:19:30Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at org.base.test.FailCheck.testA(FailCheck.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="SKIP" signature="testA()[pri:0, instance:org.base.test.FailCheck@13805618]" name="testA" duration-ms="0" started-at="2020-06-22T18:19:30Z" finished-at="2020-06-22T18:19:30Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at org.base.test.FailCheck.testA(FailCheck.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- org.base.test.FailCheck -->
+    </test> <!-- failcheck -->
+  </suite> <!-- Suite -->
+</testng-results>
