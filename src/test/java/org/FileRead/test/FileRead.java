@@ -37,7 +37,8 @@ public class FileRead {
 		for(int i=0;i<s.getPhysicalNumberOfRows();i++) {
 			Row row=s.getRow(i);
 			
-			for(int j=0;j<r.getPhysicalNumberOfCells();j++) {
+			
+			for(int j=0;j<row.getPhysicalNumberOfCells();j++) {
 				Cell cell=row.getCell(j);
 				
 				int type=cell.getCellType();

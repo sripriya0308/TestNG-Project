@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.locators.test.HotelPojo;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
@@ -17,12 +18,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import junit.framework.Assert;
 
 public class HotelBooking extends BaseClass {
 	
-	
+	int a=1;
+	int b=0;
 	
 	@Parameters({"Browser"})
 	@BeforeClass(groups="functional")
@@ -49,6 +52,8 @@ public class HotelBooking extends BaseClass {
 		System.out.println("browser"+Thread.currentThread().getId());
 		
 		
+		
+		
 	}
 	
     @Parameters({"URL"})
@@ -57,8 +62,8 @@ public class HotelBooking extends BaseClass {
 		
 		Date d=new Date();
 		launchUrl(s1);
-		driver.manage().window().maximize();
-		 driver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
+//		eventFiringWebDriver.manage().window().maximize();
+//		eventFiringWebDriver.manage().timeouts().implicitlyWait(200, TimeUnit.SECONDS);
 		 System.out.println("url"+Thread.currentThread().getId());
 		
 		
@@ -107,6 +112,13 @@ public class HotelBooking extends BaseClass {
 			fill(hp.getUser(),s1);
 			fill(hp.getPass(),s2);
 	//click(hp.getLogn());
+			
+			 String fr= hp.getUser().getAttribute("value");
+			  String too=hp.getPass().getAttribute("value");
+			 SoftAssert sf=new SoftAssert();
+			 sf.assertEquals(fr,too);
+			
+			 
 	
 	JavascriptExecutor jc=(JavascriptExecutor)driver;
 	jc.executeScript("arguments[0].click()",hp.getLogn());
@@ -147,12 +159,18 @@ public class HotelBooking extends BaseClass {
 	
 	jc.executeScript("arguments[0].click()",hp.getBook());
 	
+	WebDriverWait wd=new WebDriverWait(driver,10);
+	wd.until(ExpectedConditions.visibilityOf(hp.getOrderNo()));
+	
+		
 	String order=getAttribute(hp.getOrderNo(),"value");
 	System.out.println("order no is"+order);
 //	click(hp.getLogout());
 //	click(hp.getLoginag());
 	
 	screenshot(s17);
+	
+	
 	
 		}
 		
@@ -172,6 +190,7 @@ public class HotelBooking extends BaseClass {
 		
 		public void testB() {
 			
+						
 			System.out.println("B");
 			System.out.println("B"+Thread.currentThread().getId());
 		}
@@ -190,6 +209,13 @@ public class HotelBooking extends BaseClass {
 			
 			
 			
+		}
+		
+		@Test(priority=2, groups="functional")
+		public void testD() {
+			
+						
+			System.out.println(a/b);
 		}
 		
 		

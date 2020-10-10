@@ -6,7 +6,7 @@ public class FailCheck {
 	
 	
 	
-	@Test
+	@Test(retryAnalyzer=FailedTestCapture.class)
 	public void testA() {
 		
 		

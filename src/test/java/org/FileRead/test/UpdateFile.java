@@ -29,18 +29,22 @@ public class UpdateFile {
 		Row r=s.getRow(0);
 		
 		Cell c=r.getCell(0);
+//		System.out.println(c.getStringCellValue());
+		
+//		System.out.println(c);
 		
        String value=c.getStringCellValue();
 		
 		if(value.equals("Sri")) {
 			
-			c.setCellValue("priya");
+			c.setCellValue("vidhya");
 		}
 		
 
 		FileOutputStream fo=new FileOutputStream(f);
 		
 		wb.write(fo);
+		
 		
 	}
 

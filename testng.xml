@@ -1,52 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests">
+<suite name="Suite">
+
+
+
+<groups>
+  <run>
+  <include name="smoke"></include>
+  <include name="functional"></include>
+  <include name="regression"></include>
+  
+  </run>
+    </groups>
+   
+<parameter name="URL" value="https://adactinhotelapp.com/"></parameter>
+
 <listeners>
 <listener  class-name="org.base.test.AutomaticRerun"></listener>
 </listeners>
+
+   
   <test thread-count="5" name="ChromeTest">
-    <parameter name="Browser" value="chrome"></parameter>
-    <parameter name="URL" value="https://adactinhotelapp.com/"></parameter>
-    <groups>
-  <run>
-  <include name="smoke"></include>
-  <include name="functional"></include>
-  <include name="regression"></include>
   
+  <parameter name="Browser" value="chrome"></parameter>
+  
+     
     <!--exclude name="functional"></exclude-->
-    </run>
-    </groups>
+   
+   
     <classes>
-      <class name="org.base.test.TestD"/>
-      <class name="org.base.test.HotelBooking"/>
+      <!--class name="org.base.test.TestD"/-->
+      <class name="org.base.test.HotelBooking"></class>
     </classes>
-  </test> <!-- Test -->
+  </test> 
   
-  <test thread-count="5" name="ieTest">
-    <parameter name="Browser" value="IE"></parameter>
-    <parameter name="URL" value="https://adactinhotelapp.com/"></parameter>
-    <groups>
-  <run>
-  <include name="smoke"></include>
-  <include name="functional"></include>
-  <include name="regression"></include>
-  
-    <!--exclude name="functional"></exclude-->
-    </run>
-    </groups>
+   <!-- Test thread-count="5" name="ieTest">
+       
     <classes>
       <class name="org.base.test.TestD"/>
        <class name="org.base.test.HotelBooking"/>
     </classes>
-  </test> <!-- Test -->
+  </test--> <!-- Test -->
   
   
-<test thread-count="5" name="failcheck">
+<!-- test thread-count="5" name="failcheck">
+
+<parameter name="Browser" value="IE"></parameter>
+ <groups>
+  <run>
+  <include name="smoke"></include>
+  <include name="functional"></include>
+  <include name="regression"></include>
+  
+    <exclude name="functional"></exclude>
+    </run>
+    </groups>
 <classes>
-<class name="org.base.test.FailCheck"/>
+<class name="org.base.test.HotelBooking"/>
 </classes>
-</test>
-</suite> <!-- Suite -->
+</test-->
+ 
+
+</suite> 
 
 
 

@@ -23,6 +23,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.DataProvider;
 
@@ -32,13 +33,17 @@ public class BaseClass {
 	
 	
 	public static WebDriver driver;
+//	public  static EventFiringWebDriver eventFiringWebDriver;
+//	public static EventFiring eventFiring;
 	
 	
-	public static void getChromeDriver() {
+	public void getChromeDriver() {
 		
 				
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\sripriya\\Documents\\Selenium\\Selenium Project\\SeleniumFramework\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\sripriya\\eclipse-workspace\\TestCucumber\\Driver\\chromedriver.exe");
 		driver=new ChromeDriver();
+//		eventFiringWebDriver=new EventFiringWebDriver(driver);
+//		eventFiringWebDriver.register(eventFiring);
 	}
 	
 	public static void IeDriver() {
@@ -93,7 +98,7 @@ public class BaseClass {
 	public static void jsSetAttribute(String attvalue, WebElement element) {
 		
 		JavascriptExecutor je=(JavascriptExecutor)driver;
-		je.executeScript("arguments[0].setAttribute('value', '"+attvalue+"')", element);
+		je.executeScript("arguments[0].setAttribute('value', "+attvalue+")", element);
 	}
 	
 	public static void scrollDown(WebElement element) {
@@ -126,7 +131,9 @@ public class BaseClass {
 	   FileUtils.copyFile(src,des);
    }
    
-   public static void alertAccept() {
+   
+   
+     public static void alertAccept() {
 	   
 	   Alert al=driver.switchTo().alert();
 	   al.accept();

@@ -60,8 +60,18 @@ public class WebTableTest {
 //			}
 //		}
 		
-		WebElement date=driver.findElement(By.xpath("//td[text()='24']/parent::tr//following-sibling::tr//descendant::td[text()='29']"));
-		date.click();
+//		WebElement date=driver.findElement(By.xpath("//td[text()='24']/parent::tr//following-sibling::tr//descendant::td[text()='29']"));
+//		date.click();
+		
+		List<WebElement> li=driver.findElements(By.tagName("td"));
+		
+		for(WebElement wb:li) {
+			
+			if(wb.getText().equals("23")) {
+				
+				wb.click();
+			}
+		}
 
 	}
 
