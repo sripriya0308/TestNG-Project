@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="URL" value="https://adactinhotelapp.com/"/>
+  <listeners>
+    <listener class-name="org.base.test.AutomaticRerun"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="ChromeTest(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="functional"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.base.test.HotelBooking">
+        <methods>
+          <include name="launchHotelUrl"/>
+          <include name="testD"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- org.base.test.HotelBooking -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
